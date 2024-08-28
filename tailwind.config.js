@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-      width: {
-        'custom-width': '560px', 
-       
+      fontFamily: {
+        'integral': ['"Integral CF Bold"', 'sans-serif'],
+        
       },
 
     },

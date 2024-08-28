@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face{
+    font-family: 'IntegralCFBold';
+    src: url(../src/assets/Fontspring-DEMO-integralcf-bold.otf);
+    font-weight: bold;
+    font-style: normal;
+
 }
