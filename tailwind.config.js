@@ -7,7 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'integral': ['"Integral CF Bold"', 'sans-serif'],
+        'integral': ['Integral CF Bold', 'sans-serif'],
+        'satoshi-bold': ['Satoshi'],
+        'satoshi-regular': ['Satoshi'],
+
         
       },
 
