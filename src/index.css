@@ -11,22 +11,20 @@
 
 @font-face{
     font-family: 'IntegralCFBold';
-    src: url(../src/assets/Fontspring-DEMO-integralcf-bold.otf);
+    src: url(../src/assets/IntegralCF-Bold.otf);
     font-weight: bold;
     font-style: normal;
 
 }
 @font-face{
-    font-family: 'IntegralCFBold';
+    font-family: 'SatoshiBold';
     src: url(../src/assets/Satoshi-Bold.otf);
-    font-weight: bold;
-    font-style: normal;
+   
 
 }
 @font-face{
-    font-family: 'IntegralCFBold';
+    font-family: 'SatoshiRegular';
     src: url(../src/assets/Satoshi-Regular.otf);
-    font-weight: bold;
-    font-style: normal;
+    
 
 }

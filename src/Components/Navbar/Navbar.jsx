@@ -13,10 +13,10 @@ function Nav () {
           </div>
           <div className='flex justify-center'>
             <ul className='flex justify-center items-center gap-6'>
-              <li className='flex justify-between text-base gap-2'>Shop <img src= {dropdown} className='flex justify-center items-center' /></li>
-              <li className='text-base'>On Sale</li>
-              <li className='text-base'>New Arrivals</li>
-              <li className='text-base'>Brands</li>
+              <li className='flex justify-between text-base gap-2  font-satoshi-regular'>Shop <img src= {dropdown} className='flex justify-center items-center' /></li>
+              <li className='text-base font-satoshi-regular'>On Sale</li>
+              <li className='text-base font-satoshi-regular'>New Arrivals</li>
+              <li className='text-base font-satoshi-regular'>Brands</li>
             </ul>
           </div>
           <div className='flex bg-[#f0f0f0]  w-[582px] rounded-[67px]'>

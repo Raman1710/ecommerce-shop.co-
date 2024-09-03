@@ -14,7 +14,7 @@ function HeroSection() {
     <div>
     <div className='bg-[#F2F0F1] flex flex-row'>
         <div className='ml-[148px] pt-[103px]  w-1/2'>
-            <p className='font-integral font-extrabold tracking-tighter text-6xl w-[577px] '>FIND CLOTHES THAT MATCHES YOUR STYLE</p>
+            <p className='font-integral font-extrabold tracking-tighter text-6xl w-[577px] leading-[64px] '>FIND CLOTHES THAT MATCHES YOUR STYLE</p>
             <p className='text-black/60 mt-8 font-satoshi-regular '>
             Browse through our diverse range of meticulously crafted garments, designed<br></br>
             to bring out your individuality and cater to your sense of style.
