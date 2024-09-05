@@ -1,13 +1,6 @@
 import React from 'react'
 
 import Model from '../Assets/model.svg'
-import Calvin from '../Assets/calvin-logo.svg'
-import Gucci from '../Assets/gucci-logo.svg'
-import Prada from '../Assets/prada-logo.svg'
-import Versace from '../Assets/versacelogo.svg'
-import Zara from '../Assets/zara-logo.svg'
-
-
 
 function HeroSection() {
   return (
