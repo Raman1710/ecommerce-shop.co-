@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Model from '../Assets/model.svg'
+import PrimaryButton from '../Buttons/PrimaryButton'
 
 function HeroSection() {
   return (
@@ -12,7 +13,7 @@ function HeroSection() {
             Browse through our diverse range of meticulously crafted garments, designed<br></br>
             to bring out your individuality and cater to your sense of style.
             </p>
-            <button className='mt-[37px] bg-black text-white px-[67.5px] py-[15px] rounded-[62px]'>Shop Now</button>
+            <PrimaryButton>Shop Now</PrimaryButton>
             <div className=' mt-[48px] flex flex-row'>
                 <div className=' pr-8 border-r-2 border-black/10'>
                   <p className=' text-[40px] font-bold font-satoshi-bold'>200+</p>

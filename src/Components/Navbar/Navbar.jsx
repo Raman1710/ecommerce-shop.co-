@@ -17,10 +17,10 @@ function Nav () {
           </div>
           <div className='flex justify-center '>
             <ul className='flex justify-center items-center gap-6 '>
-              <li className='relative flex justify-between text-base gap-2  font-satoshi-regular' onClick={()=>{setMenu("shop")}} > <Link to='/' className='flex '  >Shop<img src= {dropdown} className='flex justify-center items-center' /></Link>{menu==='shop'?<hr className=' border-0 bg-black w-11/12 h-1 absolute bottom-[-36px] left-0'/>:<></>} </li>
-              <li className='relative text-base font-satoshi-regular' onClick={()=>{setMenu("on-sale")}}><Link to='/on-sale'>On Sale</Link>{menu==='on-sale'?<hr className=' border-0 bg-black w-11/12 h-1 absolute bottom-[-36px] left-0'/>:<></>}</li>
-              <li className='relative text-base font-satoshi-regular' onClick={()=>{setMenu("new-arrivals")}} > <Link to='/new-arrivals'>New Arrivals</Link>{menu==='new-arrivals'?<hr className=' border-0 bg-black w-11/12 h-1 absolute bottom-[-36px] left-0'/>:<></>} </li>
-              <li className='relative text-base font-satoshi-regular' onClick={()=>{setMenu("brands")}}><Link to='/brands'>Brands</Link>{menu==='brands'?<hr className=' border-0 bg-black w-11/12 h-1 absolute bottom-[-36px] left-0'/>:<></>}</li>
+              <li className='relative flex justify-between text-base gap-2  font-satoshi-regular ' onClick={()=>{setMenu("shop")}} > <Link to='/' className='flex '  >Shop<img src= {dropdown} className='flex justify-center items-center' /></Link>{menu==='shop'?<hr className=' border-0 bg-black w-11/12 h-1 absolute bottom-[-6px] left-0'/>:<></>} </li>
+              <li className='relative text-base font-satoshi-regular ' onClick={()=>{setMenu("on-sale")}}><Link to='/on-sale'>On Sale</Link>{menu==='on-sale'?<hr className=' border-0 bg-black w-11/12 h-1 absolute bottom-[-6px] left-0'/>:<></>}</li>
+              <li className='relative text-base font-satoshi-regular ' onClick={()=>{setMenu("new-arrivals")}} > <Link to='/new-arrivals'>New Arrivals</Link>{menu==='new-arrivals'?<hr className=' border-0 bg-black w-11/12 h-1 absolute bottom-[-6px] left-0'/>:<></>} </li>
+              <li className='relative text-base font-satoshi-regular ' onClick={()=>{setMenu("brands")}}><Link to='/brands'>Brands</Link>{menu==='brands'?<hr className=' border-0 bg-black w-11/12 h-1 absolute bottom-[-6px] left-0'/>:<></>}</li>
             </ul>
           </div>
           <div className='flex bg-[#f0f0f0]  w-[582px] rounded-[67px]'>
