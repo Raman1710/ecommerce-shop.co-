@@ -2,8 +2,8 @@ import React from 'react'
 
 import HeroSection from '../Components/HeroSection/HeroSection'
 import Brand from '../Components/Brand/Brand'
-import NewArrivals from '../Components/NewArrivals/NewArrivals'
 import DressStyle from '../Components/DressStyle/DressStyle'
+import TopSelling from '../Components/TopSelling/TopSelling'
 
 
 function Shop() {
@@ -11,7 +11,7 @@ function Shop() {
     <>
       <HeroSection/>
       <Brand/>
-      {/* <NewArrivals/> */}
+      <TopSelling/>
       <DressStyle/>
     </>
   )

@@ -33,10 +33,7 @@ function HeroSection() {
           <img src = {Model}  />
         </div>
     </div>
-
-
-
-
+    
     </div>
 
   )
