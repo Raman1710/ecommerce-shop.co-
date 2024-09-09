@@ -1,7 +1,7 @@
-import p1 from './ProductImages/Product1.jpeg'
-import p2 from './ProductImages/Product2.jpeg'
-import p3 from './ProductImages/Product3.jpeg'
-import p4 from './ProductImages/Product4.jpeg'
+import p35 from './ProductImages/Product35.jpg'
+import p11 from './ProductImages/Product11.jpg'
+import p6 from './ProductImages/Product26.jpg'
+import p9 from './ProductImages/Product9.jpeg'
 
 
 let data_product = [
@@ -10,39 +10,39 @@ let data_product = [
         name: "Stretch Cotton Slim Fit Short Sleeve Shirt",
         category: "mens",
         sub_category: "formal",
-        image: p1,
-        new_price: "₹5000",
-        old_price: "₹5800",
+        image: p35,
+        new_price: "5000",
+        old_price: "5800",
         brand:"Calvin Klein"
     },
     {
-        id: 2,
-        name: "Cotton Stretch Slim Button-Down Shirt",
-        category: "mens",
-        sub_category: "formal",
-        image: p2 ,
-        new_price: "₹5500",
-        old_price: "₹6000",
-        brand:"Calvin Klein"
-    },
-    {
-        id: 3,
-        name: "Signature 90s Trucker",
-        category: "mens",
+        id: 9,
+        name: "Sherpa Jacket",
+        category: "women",
         sub_category: "party",
-        image: p3,
-        new_price: "₹10000",
-        old_price: "₹11500",
+        image: p9 ,
+        new_price: "11000",
+        old_price: "15500",
         brand: "Calvin Klein"
     },
     {
-        id: 4,
-        name: "Denim Print Tailored Trouser",
+        id: 11,
+        name: "BASIC HEAVY WEIGHT T-SHIRT ",
         category: "mens",
+        sub_category: "party",
+        image: p11,
+        new_price: "1850",
+        old_price: "2300",
+        brand:"Zara"
+    },
+    {
+        id: 6,
+        name: "Loose Denim Button-Down Shirt",
+        category: "women",
         sub_category: "casual",
-        image: p4,
-        new_price: "₹46000",
-        old_price: "₹47500",
+        image: p6 ,
+        new_price: "5900",
+        old_price: "7500",
         brand: "Calvin Klein"
     }
 ]
