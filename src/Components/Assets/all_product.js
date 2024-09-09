@@ -46,8 +46,8 @@ let all_product = [
         category: "mens",
         sub_category: "formal",
         image: p1,
-        new_price: "₹5000",
-        old_price: "₹5800",
+        new_price: " 5000",
+        old_price: " 5800",
         brand:"Calvin Klein"
     },
     {
@@ -56,8 +56,8 @@ let all_product = [
         category: "mens",
         sub_category: "formal",
         image: p2 ,
-        new_price: "₹5500",
-        old_price: "₹6000",
+        new_price: " 5500",
+        old_price: " 6000",
         brand:"Calvin Klein"
     },
     {
@@ -66,8 +66,8 @@ let all_product = [
         category: "mens",
         sub_category: "party",
         image: p3,
-        new_price: "₹10000",
-        old_price: "₹11500",
+        new_price: " 10000",
+        old_price: " 11500",
         brand: "Calvin Klein"
     },
     {
@@ -76,8 +76,8 @@ let all_product = [
         category: "mens",
         sub_category: "casual",
         image: p4,
-        new_price: "₹46000",
-        old_price: "₹47500",
+        new_price: " 46000",
+        old_price: " 47500",
         brand: "Calvin Klein"
     },
     {
@@ -86,8 +86,8 @@ let all_product = [
         category: "mens",
         sub_category: "casual",
         image: p5,
-        new_price: "₹3000",
-        old_price: "₹3500",
+        new_price: " 3000",
+        old_price: " 3500",
         brand: "Calvin Klein"
     },
     {
@@ -96,8 +96,8 @@ let all_product = [
         category: "women",
         sub_category: "casual",
         image: p6 ,
-        new_price: "₹5900",
-        old_price: "₹7500",
+        new_price: " 5900",
+        old_price: " 7500",
         brand: "Calvin Klein"
     },
     {
@@ -106,8 +106,8 @@ let all_product = [
         category: "women",
         sub_category: "formal",
         image: p7 ,
-        new_price: "₹5200",
-        old_price: "₹5900",
+        new_price: " 5200",
+        old_price: " 5900",
         brand: "Calvin Klein"
     },
     {
@@ -116,8 +116,8 @@ let all_product = [
         category: "women",
         sub_category: "casual",
         image:p8 ,
-        new_price: "₹2600",
-        old_price: "₹3200",
+        new_price: " 2600",
+        old_price: " 3200",
         brand: "Calvin Klein"
     },
     {
@@ -126,8 +126,8 @@ let all_product = [
         category: "women",
         sub_category: "party",
         image: p9 ,
-        new_price: "₹11000",
-        old_price: "₹15500",
+        new_price: " 11000",
+        old_price: " 15500",
         brand: "Calvin Klein"
     },
     {
@@ -136,8 +136,8 @@ let all_product = [
         category: "women",
         sub_category: "party",
         image: p10,
-        new_price: "₹5900",
-        old_price: "₹7400",
+        new_price: " 5900",
+        old_price: " 7400",
         brand: "Calvin Klein"
     },
     {
@@ -146,8 +146,8 @@ let all_product = [
         category: "mens",
         sub_category: "party",
         image: p11,
-        new_price: "₹1850",
-        old_price: "₹2300",
+        new_price: " 1850",
+        old_price: " 2300",
         brand:"Zara"
     },
     {
@@ -156,8 +156,8 @@ let all_product = [
         category: "mens",
         sub_category: "party",
         image: p12,
-        new_price: "₹2950",
-        old_price: "₹3500",
+        new_price: " 2950",
+        old_price: " 3500",
         brand:"Zara"
     },
     {
@@ -166,8 +166,8 @@ let all_product = [
         category: "mens",
         sub_category: "casual",
         image: p13 ,
-        new_price: "₹4350",
-        old_price: "₹4800",
+        new_price: " 4350",
+        old_price: " 4800",
         brand:"Zara"
     },
     {
@@ -176,8 +176,8 @@ let all_product = [
         category: "mens",
         sub_category: "party",
         image:p14 ,
-        new_price: "₹10950",
-        old_price: "₹14550",
+        new_price: " 10950",
+        old_price: " 14550",
         brand:"Zara"
     },
     {
@@ -186,8 +186,8 @@ let all_product = [
         category: "mens",
         sub_category: " ",
         image: p15,
-        new_price: "₹4300",
-        old_price: "₹5800",
+        new_price: " 4300",
+        old_price: " 5800",
         brand: "Zara"
     },
     {
@@ -196,8 +196,8 @@ let all_product = [
         category: "women",
         sub_category: "party",
         image: p16,
-        new_price: "₹4950",
-        old_price: "₹5200",
+        new_price: " 4950",
+        old_price: " 5200",
         brand:"Zara"
     },
     {
@@ -206,8 +206,8 @@ let all_product = [
         category: "women",
         sub_category: "casual",
         image: p17 ,
-        new_price: "₹2950",
-        old_price: "₹3400",
+        new_price: " 2950",
+        old_price: " 3400",
         brand:"Zara"
     },
     {
@@ -216,8 +216,8 @@ let all_product = [
         category: "women",
         sub_category: "party",
         image: p18,
-        new_price: "₹3550",
-        old_price: "₹4000",
+        new_price: " 3550",
+        old_price: " 4000",
         brand: "Zara"
     },
     {
@@ -226,8 +226,8 @@ let all_product = [
         category: "women",
         sub_category: "casual",
         image: p19,
-        new_price: "₹850",
-        old_price: "₹1100",
+        new_price: " 850",
+        old_price: " 1100",
         brand: "Zara"
     },
     {
@@ -236,8 +236,8 @@ let all_product = [
         category: "women",
         sub_category: "gym",
         image: p20,
-        new_price: "₹1550",
-        old_price: "₹1800",
+        new_price: " 1550",
+        old_price: " 1800",
         brand: "Zara"
     },
     {
@@ -246,8 +246,8 @@ let all_product = [
         category: "mens",
         sub_category: "party",
         image: p21,
-        new_price: "₹107497",
-        old_price: "₹110000",
+        new_price: " 17497",
+        old_price: " 19000",
         brand: "Gucci"
     },
     {
@@ -256,8 +256,8 @@ let all_product = [
         category: "mens",
         sub_category: "party",
         image: p22,
-        new_price: "₹113375",
-        old_price: "₹120000",
+        new_price: " 10375",
+        old_price: " 12000",
         brand: "Gucci"
     },
     {
@@ -266,8 +266,8 @@ let all_product = [
         category: "mens",
         sub_category: "casual",
         image: p23,
-        new_price: "₹306534",
-        old_price: "₹320000",
+        new_price: " 20634",
+        old_price: " 28000",
         brand: "Gucci"
     },
     {
@@ -276,8 +276,8 @@ let all_product = [
         category: "mens",
         sub_category: "party",
         image: p24,
-        new_price: "₹268742",
-        old_price: "₹300000",
+        new_price: " 26142",
+        old_price: " 30000",
         brand: "Gucci"
     },
     {
@@ -286,8 +286,8 @@ let all_product = [
         category: "mens",
         sub_category: "party",
         image: p25,
-        new_price: "₹151167",
-        old_price: "₹200000",
+        new_price: " 15167",
+        old_price: " 20000",
         brand: "Gucci"
     },
     {
@@ -296,8 +296,8 @@ let all_product = [
         category: "women",
         sub_category: "formal",
         image: p26,
-        new_price: "₹235149",
-        old_price: "₹250000",
+        new_price: " 23519",
+        old_price: " 25000",
         brand:"Gucci"
     },
     {
@@ -306,8 +306,8 @@ let all_product = [
         category: "women",
         sub_category: "casual",
         image: p27,
-        new_price: "₹310733",
-        old_price: "₹330000",
+        new_price: " 31073",
+        old_price: " 33000",
         brand:"Gucci"
     },
     {
@@ -316,8 +316,8 @@ let all_product = [
         category: "women",
         sub_category: "formal",
         image: p28,
-        new_price: "₹73904",
-        old_price: "₹80000",
+        new_price: " 7390",
+        old_price: " 8000",
         brand:"Gucci"
     },
     {
@@ -326,8 +326,8 @@ let all_product = [
         category: "women",
         sub_category: "casual",
         image: p29,
-        new_price: "₹49549",
-        old_price: "₹55000",
+        new_price: " 4954",
+        old_price: " 5500",
         brand:"Gucci"
     },
     {
@@ -336,8 +336,8 @@ let all_product = [
         category: "women",
         sub_category: "party",
         image: p30,
-        new_price: "₹134371",
-        old_price: "₹140000",
+        new_price: " 13437",
+        old_price: " 14000",
         brand:"Gucci"
     },
     {
@@ -346,8 +346,8 @@ let all_product = [
         category: "mens",
         sub_category: "casual",
         image: p31,
-        new_price: "₹200311",
-        old_price: "₹205000",
+        new_price: " 15500",
+        old_price: " 20500",
         brand: "Prada"
     },
     {
@@ -356,8 +356,8 @@ let all_product = [
         category: "mens",
         sub_category: "formal",
         image: p32 ,
-        new_price: "₹15000",
-        old_price: "₹18000",
+        new_price: " 15000",
+        old_price: " 18000",
         brand: "Prada"
     },
     {
@@ -366,8 +366,8 @@ let all_product = [
         category: "mens",
         sub_category: "casual",
         image: p33,
-        new_price: "₹47000",
-        old_price: "₹63000",
+        new_price: " 17000",
+        old_price: " 25000",
         brand: "Prada"
     },
     {
@@ -376,8 +376,8 @@ let all_product = [
         category: "mens",
         sub_category: "formal",
         image:p34 ,
-        new_price: "₹9000",
-        old_price: "₹15800",
+        new_price: " 9000",
+        old_price: " 15800",
         brand: "Prada"
     },
     {
@@ -386,8 +386,8 @@ let all_product = [
         category: "mens",
         sub_category: "party",
         image: p35 ,
-        new_price: "₹50000",
-        old_price: "₹63000",
+        new_price: " 5000",
+        old_price: " 6300",
         brand: "Prada"
     },
     {
@@ -396,8 +396,8 @@ let all_product = [
         category: "women",
         sub_category: "party",
         image: p36 ,
-        new_price: "₹74000",
-        old_price: "₹80000",
+        new_price: " 7400",
+        old_price: " 8000",
         brand: "Prada"
     },
     {
@@ -406,8 +406,8 @@ let all_product = [
         category: "women",
         sub_category: "formal",
         image: p37,
-        new_price: "₹9000",
-        old_price: "₹12000",
+        new_price: " 9000",
+        old_price: " 12000",
         brand: "Prada"
     },
     {
@@ -416,8 +416,8 @@ let all_product = [
         category: "women",
         sub_category: "party",
         image:p38 ,
-        new_price: "₹25000",
-        old_price: "₹26500",
+        new_price: " 25000",
+        old_price: " 26500",
         brand: "Prada"
     },
     {
@@ -426,8 +426,8 @@ let all_product = [
         category: "women",
         sub_category: "casual",
         image: p39,
-        new_price: "₹63000",
-        old_price: "₹70000",
+        new_price: " 6300",
+        old_price: " 7000",
         brand: "Prada"
     },
     {
@@ -436,8 +436,8 @@ let all_product = [
         category: "women",
         sub_category: "casual",
         image:p40 ,
-        new_price: "₹23000",
-        old_price: "₹27000",
+        new_price: " 2300",
+        old_price: " 2700",
         brand: "Prada"
     }
 ]
