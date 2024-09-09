@@ -14,7 +14,7 @@ function TopSelling() {
         })}
         </div>
 
-        <PrimaryButton className=" bg-white text-black border ">View All</PrimaryButton>
+        <PrimaryButton className=" bg-white text-black border-2 font-medium hover:bg-black hover:text-white ">View All</PrimaryButton>
 
 
     </div>
