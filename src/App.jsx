@@ -13,7 +13,7 @@ function App() {
 
   return (
     <BrowserRouter>
-     <Banner/>
+      <Banner/>
       <Navbar/>
 
     <Routes>
