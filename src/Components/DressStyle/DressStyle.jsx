@@ -8,42 +8,37 @@ import { Link } from 'react-router-dom'
 
 function DressStyle() {
     return (
-        <div className='bg-[#f0f0f0] mx-[148px]  rounded-[40px] flex flex-col justify-center my-16'>
-            <h1 className=' font-integral text-6xl font-extrabold pt-[68px] pb-[61px] tracking-tighter text-center'>BROWSE BY DRESS STYLE</h1>
-            <div className='mx-[64px] flex flex-row gap-[57px]'>
-                <Link to='/casual'>
-                <div className='bg-white w-[407px] h-[289px] rounded-[20px] flex flex-row bg-cover'>
-                    <p className='font-satoshi-bold font-bold text-[36px]  mt-[25px] ml-[36px]'>Casual</p>
-                    <img src={Casual} className='w-full h-full object-cover rounded-[20px]' />
+        <div className='bg-[#f0f0f0] mx-[148px] rounded-[20px] mt-20 py-16 '>
+
+            <h1 className=' font-integral font-black text-[48px] tracking-tighter text-center'>BROWSE BY DRESSSTYLE</h1>
+
+            <div className='flex flex-col  justify-center px-16 mt-[60px] l gap-5'>
+            {/* top div  */}
+                <div className='flex flex-row  gap-5 '>
+                        <div className='flex flex-row bg-white rounded-3xl pl-9 bg-right'>
+                            <p className='font-saotshi text-[36px] font-bold pt-6'>Casual</p>
+                            <img src={Casual} className='rounded-r-3xl w-[354px]'/>
+                        </div>
+                        <div className='flex flex-row bg-white w-[684px] pl-9 bg-right rounded-3xl'>
+                            <p className='font-saotshi text-[36px] font-bold pt-6'>Formal</p>
+                            <img src={Formal} className=' rounded-r-3xl ' />
+                        </div>
                 </div>
-                </Link>
-                
-                <Link to='/formal'>
-                <div className='bg-white w-[684px] h-[289px] rounded-[20px] flex flex-row bg-cover'>
-                    <p className='font-satoshi-bold font-bold text-[36px]  mt-[25px] ml-[36px]'>Formal</p>
-                    <img src={Formal} className='w-full h-full object-cover rounded-[20px]' />
+            {/* bottom div  */}
+                <div className='flex flex-row gap-5 '>
+                        <div className='flex flex-row bg-white w-[684px] rounded-3xl pl-9 bg-right'>
+                            <p className='font-saotshi text-[36px] font-bold pt-6'>Party</p>
+                            <img src={Party} className='rounded-r-3xl' />
+                        </div>
+                        <div className='flex flex-row bg-white rounded-3xl pl-9 bg-right'>
+                            <p className='font-saotshi text-[36px] font-bold pt-6'>Gym</p>
+                            <img src={Gym} className='rounded-r-3xl' />
+                        </div>
                 </div>
-                </Link>
             </div>
-
-            <div className='mx-[64px] flex flex-row gap-[20px] mt-[20px]'>
-                <Link to='/party'>
-                    <div className='bg-white w-[600px] h-[289px] rounded-[20px] flex flex-row bg-cover'>
-                        <p className='font-satoshi-bold font-bold text-[36px] mt-[25px] ml-[36px]'>Party</p>
-                        <img src={Party} className='w-full h-full object-cover rounded-[20px]' />
-                    </div>
-                </Link>
-
-                <Link to='/gym'>
-                <div className='bg-white w-[407px] h-[289px] rounded-[20px] flex flex-row bg-cover mb-[76px]'>
-                    <p className='font-satoshi-bold font-bold text-[36px] mt-[25px] ml-[36px]'>Gym</p>
-                    <img src={Gym} className='w-full h-full object-cover rounded-[20px]' />
-                </div>
-                </Link>
-            </div>
-
 
         </div>
+
 
     )
 }
