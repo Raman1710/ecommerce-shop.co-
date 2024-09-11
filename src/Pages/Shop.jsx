@@ -15,8 +15,8 @@ function Shop() {
       <Brand/>
       <NewArrivals/>
       <TopSelling/>
-      <Testimonials/>
       <DressStyle/>
+      <Testimonials/>
     </>
   )
 }
