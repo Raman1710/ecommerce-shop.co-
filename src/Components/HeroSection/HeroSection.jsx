@@ -13,7 +13,7 @@ function HeroSection() {
             Browse through our diverse range of meticulously crafted garments, designed<br></br>
             to bring out your individuality and cater to your sense of style.
             </p>
-            <PrimaryButton>Shop Now</PrimaryButton>
+            <PrimaryButton className='text-white'>Shop Now</PrimaryButton>
             <div className=' mt-[48px] flex flex-row'>
                 <div className=' pr-8 border-r-2 border-black/10'>
                   <p className=' text-[40px] font-bold font-satoshi-bold'>200+</p>
