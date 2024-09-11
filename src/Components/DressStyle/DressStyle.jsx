@@ -17,7 +17,7 @@ function DressStyle() {
             <div className='flex flex-row gap-5 '>
                         <div className='flex flex-row bg-white rounded-3xl pl-9'>
                             <Link to='casual'>
-                            <p className='font-saotshi text-[36px] font-bold pt-6'>Casual</p>
+                            <p className='font-saotshi text-[36px] font-bold pt-6 tracking-tighter'>Casual</p>
                             </Link>
                             <div className='w-[354px] h-[289px] bg-auto'>
 
@@ -26,7 +26,7 @@ function DressStyle() {
                         </div>
                         <div className='flex flex-row bg-white w-[684px] rounded-3xl pl-9 gap-20 '>
                             <Link to='/formal'>
-                            <p className='font-saotshi text-[36px] font-bold pt-6'>Formal</p>
+                            <p className='font-saotshi text-[36px] font-bold pt-6 tracking-tighter'>Formal</p>
                             </Link>
                             <div className='w-[684px] h-[289px] bg-auto '>
                             <img src={Formal} className='rounded-r-3xl ' />
@@ -45,7 +45,7 @@ function DressStyle() {
                         </div>
                         <div className='flex flex-row bg-white rounded-3xl pl-9 '>
                             <Link to='gym'>
-                            <p className='font-saotshi text-[36px] font-bold pt-6'>Gym</p>
+                            <p className='font-saotshi text-[36px] font-bold pt-6 w-[98px]'>Gym</p>
                             </Link>
                             <div className='w-[354px] h-[289px] bg-auto'>
 
