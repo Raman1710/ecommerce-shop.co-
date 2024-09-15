@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import PrimaryButton from '../Components/Buttons/PrimaryButton'
 import Google from '../Components/Assets/Google.svg'
-import Model from '../Components/Assets/Model_Login.svg'
 import Line from '../Components/Assets/Line.svg'
 
 
