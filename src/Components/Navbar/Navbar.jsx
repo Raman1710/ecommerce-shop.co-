@@ -13,7 +13,11 @@ function Nav () {
   return (
     <div  className='navbar flex gap-10 mx-[148px] my-6 w-[1240px] justify-center  '>
           <div className='navlogo flex justify-center items-center  '>
+              <Link to='/' onClick={()=>{setMenu("/")}}>
+
                <p className='text-[32px] font-integral font-extrabold tracking-tighter '>SHOP.CO</p>
+               {menu==='/'?<></>:<></>}
+              </Link>
           </div>
           <div className='flex justify-center '>
             <ul className='flex justify-center items-center gap-6 '>
