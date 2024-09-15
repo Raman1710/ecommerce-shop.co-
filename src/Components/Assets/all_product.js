@@ -48,7 +48,9 @@ let all_product = [
         image: p1,
         new_price: " 5000",
         old_price: " 5800",
-        brand:"Calvin Klein"
+        brand:"Calvin Klein",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 2,
@@ -58,7 +60,10 @@ let all_product = [
         image: p2 ,
         new_price: " 5500",
         old_price: " 6000",
-        brand:"Calvin Klein"
+        brand:"Calvin Klein",
+        on_sale: false,
+        new_arrival: true
+        
     },
     {
         id: 3,
@@ -68,7 +73,9 @@ let all_product = [
         image: p3,
         new_price: " 10000",
         old_price: " 11500",
-        brand: "Calvin Klein"
+        brand: "Calvin Klein",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 4,
@@ -78,7 +85,9 @@ let all_product = [
         image: p4,
         new_price: " 46000",
         old_price: " 47500",
-        brand: "Calvin Klein"
+        brand: "Calvin Klein",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 5,
@@ -88,7 +97,9 @@ let all_product = [
         image: p5,
         new_price: " 3000",
         old_price: " 3500",
-        brand: "Calvin Klein"
+        brand: "Calvin Klein",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 6,
@@ -98,7 +109,9 @@ let all_product = [
         image: p6 ,
         new_price: " 5900",
         old_price: " 7500",
-        brand: "Calvin Klein"
+        brand: "Calvin Klein",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 7,
@@ -108,7 +121,9 @@ let all_product = [
         image: p7 ,
         new_price: " 5200",
         old_price: " 5900",
-        brand: "Calvin Klein"
+        brand: "Calvin Klein",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 8,
@@ -118,7 +133,9 @@ let all_product = [
         image:p8 ,
         new_price: " 2600",
         old_price: " 3200",
-        brand: "Calvin Klein"
+        brand: "Calvin Klein",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 9,
@@ -128,7 +145,9 @@ let all_product = [
         image: p9 ,
         new_price: " 11000",
         old_price: " 15500",
-        brand: "Calvin Klein"
+        brand: "Calvin Klein",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 10,
@@ -138,7 +157,9 @@ let all_product = [
         image: p10,
         new_price: " 5900",
         old_price: " 7400",
-        brand: "Calvin Klein"
+        brand: "Calvin Klein",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 11,
@@ -148,7 +169,9 @@ let all_product = [
         image: p11,
         new_price: " 1850",
         old_price: " 2300",
-        brand:"Zara"
+        brand:"Zara",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 12,
@@ -158,7 +181,9 @@ let all_product = [
         image: p12,
         new_price: " 2950",
         old_price: " 3500",
-        brand:"Zara"
+        brand:"Zara",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 13,
@@ -168,17 +193,21 @@ let all_product = [
         image: p13 ,
         new_price: " 4350",
         old_price: " 4800",
-        brand:"Zara"
+        brand:"Zara",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 14,
-        name: "LIMITED EDITION LEATHER-EFFECT JACKET",
+        name: "LEATHER-EFFECT JACKET",
         category: "mens",
         sub_category: "party",
         image:p14 ,
         new_price: " 10950",
         old_price: " 14550",
-        brand:"Zara"
+        brand:"Zara",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 15,
@@ -188,7 +217,9 @@ let all_product = [
         image: p15,
         new_price: " 4300",
         old_price: " 5800",
-        brand: "Zara"
+        brand: "Zara",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 16,
@@ -198,7 +229,9 @@ let all_product = [
         image: p16,
         new_price: " 4950",
         old_price: " 5200",
-        brand:"Zara"
+        brand:"Zara",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 17,
@@ -208,7 +241,9 @@ let all_product = [
         image: p17 ,
         new_price: " 2950",
         old_price: " 3400",
-        brand:"Zara"
+        brand:"Zara",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 18,
@@ -218,7 +253,9 @@ let all_product = [
         image: p18,
         new_price: " 3550",
         old_price: " 4000",
-        brand: "Zara"
+        brand: "Zara",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 19,
@@ -228,7 +265,9 @@ let all_product = [
         image: p19,
         new_price: " 850",
         old_price: " 1100",
-        brand: "Zara"
+        brand: "Zara",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 20,
@@ -238,7 +277,9 @@ let all_product = [
         image: p20,
         new_price: " 1550",
         old_price: " 1800",
-        brand: "Zara"
+        brand: "Zara",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 21,
@@ -248,7 +289,9 @@ let all_product = [
         image: p21,
         new_price: " 17497",
         old_price: " 19000",
-        brand: "Gucci"
+        brand: "Gucci",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 22,
@@ -258,7 +301,9 @@ let all_product = [
         image: p22,
         new_price: " 10375",
         old_price: " 12000",
-        brand: "Gucci"
+        brand: "Gucci",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 23,
@@ -268,7 +313,9 @@ let all_product = [
         image: p23,
         new_price: " 20634",
         old_price: " 28000",
-        brand: "Gucci"
+        brand: "Gucci",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 24,
@@ -278,7 +325,9 @@ let all_product = [
         image: p24,
         new_price: " 26142",
         old_price: " 30000",
-        brand: "Gucci"
+        brand: "Gucci",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 25,
@@ -288,7 +337,9 @@ let all_product = [
         image: p25,
         new_price: " 15167",
         old_price: " 20000",
-        brand: "Gucci"
+        brand: "Gucci",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 26,
@@ -298,7 +349,9 @@ let all_product = [
         image: p26,
         new_price: " 23519",
         old_price: " 25000",
-        brand:"Gucci"
+        brand:"Gucci",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 27,
@@ -308,7 +361,9 @@ let all_product = [
         image: p27,
         new_price: " 31073",
         old_price: " 33000",
-        brand:"Gucci"
+        brand:"Gucci",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 28,
@@ -318,7 +373,9 @@ let all_product = [
         image: p28,
         new_price: " 7390",
         old_price: " 8000",
-        brand:"Gucci"
+        brand:"Gucci",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 29,
@@ -328,7 +385,9 @@ let all_product = [
         image: p29,
         new_price: " 4954",
         old_price: " 5500",
-        brand:"Gucci"
+        brand:"Gucci",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 30,
@@ -338,7 +397,9 @@ let all_product = [
         image: p30,
         new_price: " 13437",
         old_price: " 14000",
-        brand:"Gucci"
+        brand:"Gucci",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 31,
@@ -348,7 +409,9 @@ let all_product = [
         image: p31,
         new_price: " 15500",
         old_price: " 20500",
-        brand: "Prada"
+        brand: "Prada",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 32,
@@ -358,7 +421,9 @@ let all_product = [
         image: p32 ,
         new_price: " 15000",
         old_price: " 18000",
-        brand: "Prada"
+        brand: "Prada",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 33,
@@ -368,7 +433,9 @@ let all_product = [
         image: p33,
         new_price: " 17000",
         old_price: " 25000",
-        brand: "Prada"
+        brand: "Prada",
+        on_sale: false  ,
+        new_arrival: true
     },
     {
         id: 34,
@@ -378,7 +445,9 @@ let all_product = [
         image:p34 ,
         new_price: " 9000",
         old_price: " 15800",
-        brand: "Prada"
+        brand: "Prada",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 35,
@@ -388,7 +457,9 @@ let all_product = [
         image: p35 ,
         new_price: " 5000",
         old_price: " 6300",
-        brand: "Prada"
+        brand: "Prada",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 36,
@@ -398,7 +469,9 @@ let all_product = [
         image: p36 ,
         new_price: " 7400",
         old_price: " 8000",
-        brand: "Prada"
+        brand: "Prada",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 37,
@@ -408,7 +481,9 @@ let all_product = [
         image: p37,
         new_price: " 9000",
         old_price: " 12000",
-        brand: "Prada"
+        brand: "Prada",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 38,
@@ -418,7 +493,9 @@ let all_product = [
         image:p38 ,
         new_price: " 25000",
         old_price: " 26500",
-        brand: "Prada"
+        brand: "Prada",
+        on_sale: true,
+        new_arrival: false
     },
     {
         id: 39,
@@ -428,7 +505,9 @@ let all_product = [
         image: p39,
         new_price: " 6300",
         old_price: " 7000",
-        brand: "Prada"
+        brand: "Prada",
+        on_sale: false,
+        new_arrival: true
     },
     {
         id: 40,
@@ -438,6 +517,10 @@ let all_product = [
         image:p40 ,
         new_price: " 2300",
         old_price: " 2700",
-        brand: "Prada"
-    }
-]
+        brand: "Prada",
+        on_sale: true,
+        new_arrival: false
+    },
+];
+
+export default all_product;
