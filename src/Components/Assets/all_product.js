@@ -38,6 +38,7 @@ import p37 from './ProductImages/Product37.jpg'
 import p38 from './ProductImages/Product38.jpg'
 import p39 from './ProductImages/Product39.jpg'
 import p40 from './ProductImages/Product40.jpg'
+import p41 from './ProductImages/Product41.png'
 
 let all_product = [
     {
@@ -517,6 +518,18 @@ let all_product = [
         image:p40 ,
         new_price: " 2300",
         old_price: " 2700",
+        brand: "Prada",
+        on_sale: true,
+        new_arrival: false
+    },
+    {
+        id: 41,
+        name: "Pink Shirt",
+        category: "mens",
+        sub_category: "formal",
+        image:p41 ,
+        new_price: " 3000",
+        old_price: " 3500",
         brand: "Prada",
         on_sale: true,
         new_arrival: false
