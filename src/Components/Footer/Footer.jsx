@@ -13,7 +13,7 @@ import paypal from '../Assets/paypal.svg'
 
 function Footer() {
   return (
-    <div className=' mt-20 relative '>
+    <div className=' mt-40 relative  '>
         <div className='flex flex-row justify-center gap-[221px] bg-black py-11 px-16 mx-[148px] rounded-[20px] h-[208px] absolute top-[-100px] '>
             <div className='w-[551px] '>
                 <p className=' font-integral font-black text-[40px] text-white tracking-tighter'>STAY UPTO DATE ABOUT OUR LATEST OFFERS</p>

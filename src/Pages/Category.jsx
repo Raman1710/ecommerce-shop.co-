@@ -21,7 +21,7 @@ const Category = (props) => {
   });
   
   return (
-    <div className=' mx-[148px] mb-40'>
+    <div className=' mx-[148px] '>
 
         <div className='flex flex-row justify-between items-center px  w-full '>
             <p className='font-satoshi font-semibold '>

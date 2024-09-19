@@ -55,11 +55,11 @@ function LoginSignup() {
           
           <div className='flex flex-col gap-2 '>
             <span className='font-satoshi-regular '>First Name</span>
-            <input type='text' placeholder='Ramandeep' required className='py-3 pl-3 rounded-xl font-satoshi-regular outline-none text-black' />
+            <input type='text' placeholder='Ryomen' required className='py-3 pl-3 rounded-xl font-satoshi-regular outline-none text-black' />
           </div>
           <div className='flex flex-col gap-2 mt-6'>
             <span className='font-satoshi-regular '>Last Name</span>
-            <input type='text' placeholder='Singh' required className='py-3 pl-3 rounded-xl font-satoshi-regular outline-none text-black' />
+            <input type='text' placeholder='Sukuna' required className='py-3 pl-3 rounded-xl font-satoshi-regular outline-none text-black' />
           </div>
           <div className='flex flex-col gap-2 mt-6'>
             <span className='font-satoshi-regular '>Email</span>
