@@ -16,9 +16,12 @@ const Category = (props) => {
       return true;
     } else if (props.new_arrival && item.new_arrival === true) {
       return true;
+    } else if (props.brand && item.brand === props.brand) {
+      return true;
     }
     return false;
   });
+  
   
   return (
     <div className=' mx-[148px] '>

@@ -20,7 +20,7 @@ function Items(props) {
             ₹{oldPrice.toFixed(0)}
             </div>
             <div className='bg-[#ff3333]/10 text-[#ff3333]/100 flex justify-center items-center  rounded-[62px] text-[12px] px-[13.5px] py-[6px] font-satoshi-regular font-medium'>
-              -{discountPercentage.toFixed(0)}%
+              -{discountPercentage.toFixed(1)}%
             </div>
         </div>
 

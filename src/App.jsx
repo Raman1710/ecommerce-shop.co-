@@ -29,7 +29,13 @@ function MainApp() {
         <Route path='/gym' element={<Category sub_category="gym" />} />
         <Route path='/on-sale' element={<Category on_sale= {true} />} />
         <Route path='/new-arrivals' element={<Category new_arrival={true}/>} />
-        <Route path='/brands' element={<Category category="brands" />} />
+        <Route   >
+           <Route path='/brands/calvin-klein' element={<Category brand="Calvin Klein"/>}/>
+           <Route path='/brands/gucci' element={<Category brand="Gucci"/>}/>
+           <Route path='/brands/prada' element={<Category brand="Prada"/>}/>
+           <Route path='/brands/zara' element={<Category brand="Zara"/>}/>
+           <Route path='/brands/versace' element={<Category brand="Versace"/>}/>
+        </Route>
         <Route path='/product/:productId' element={<Product />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/login' element={<LoginSignup />} />

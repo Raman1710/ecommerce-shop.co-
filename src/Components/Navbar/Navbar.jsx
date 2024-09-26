@@ -4,7 +4,7 @@ import dropdown from '../Assets/dropdown.svg'
 import searchicon from '../Assets/searchicon.svg'
 import profile from '../Assets/profile.svg'
 import shopcart from '../Assets/shopcart.svg'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Nav () {
 
@@ -21,10 +21,41 @@ function Nav () {
           </div>
           <div className='flex justify-center '>
             <ul className='flex justify-center items-center gap-6 '>
-              <li className='relative flex justify-between text-base gap-2  font-satoshi-regular hover:font-semibold  ' onClick={()=>{setMenu("shop")}} > <Link to='/' className='flex '  >Shop<img src= {dropdown} className='flex justify-center items-center' /></Link>{menu==='shop'?<hr className=' border-0 bg-black w-11/12 h-1 absolute bottom-[-6px] left-0'/>:<></>} </li>
+
+              <li className='relative flex justify-between text-base gap-2 font-satoshi-regular hover:font-semibold group'>
+            <div onClick={() => { setMenu('shop') }} className='flex items-center'>
+              <Link to='/' className='flex'>
+                Shop
+              </Link>
+              <img src={dropdown} className='ml-2 flex justify-center items-center' />
+            </div>
+            {menu === 'shop' ? <hr className='border-0 bg-black w-11/12 h-1 absolute bottom-[-6px] left-0' /> : <></>}
+
+            <div className='absolute hidden group-hover:block top-[30px] bg-white shadow-lg rounded-lg py-2 w-[150px]'>
+              <Link to='mens' className='block px-4 py-2 hover:bg-gray-200'>Men</Link>
+              <Link to='women' className='block px-4 py-2 hover:bg-gray-200'>Women</Link>
+            </div>
+          </li>
               <li className='relative text-base font-satoshi-regular hover:font-semibold ' onClick={()=>{setMenu("on-sale")}}><Link to='/on-sale'>On Sale</Link>{menu==='on-sale'?<hr className=' border-0 bg-black w-11/12 h-1 absolute bottom-[-6px] left-0'/>:<></>}</li>
               <li className='relative text-base font-satoshi-regular hover:font-semibold' onClick={()=>{setMenu("new-arrivals")}} > <Link to='/new-arrivals'>New Arrivals</Link>{menu==='new-arrivals'?<hr className=' border-0 bg-black w-11/12 h-1 absolute bottom-[-6px] left-0'/>:<></>} </li>
-              <li className='relative text-base font-satoshi-regular hover:font-semibold' onClick={()=>{setMenu("brands")}}><Link to='/brands'>Brands</Link>{menu==='brands'?<hr className=' border-0 bg-black w-11/12 h-1 absolute bottom-[-6px] left-0'/>:<></>}</li>
+              <li className='relative text-base font-satoshi-regular hover:font-semibold group'>
+            <div onClick={() => { setMenu('brands') }} className='flex items-center'>
+              <p className='flex cursor-pointer'>
+                Brands
+              </p>
+
+            </div>
+            {menu === 'brands' ? <hr className='border-0 bg-black w-11/12 h-1 absolute bottom-[-6px] left-0' /> : <></>}
+
+            <div className='absolute hidden group-hover:block top-[30px] bg-white shadow-lg rounded-lg py-2 w-[150px]'>
+              <Link to='/brands/calvin-klein' className='block px-4 py-2 hover:bg-gray-200'>Calvin Klein</Link>
+              <Link to='/brands/gucci' className='block px-4 py-2 hover:bg-gray-200'>Gucci</Link>
+              <Link to='/brands/prada' className='block px-4 py-2 hover:bg-gray-200'>Prada</Link>
+              <Link to='/brands/zara' className='block px-4 py-2 hover:bg-gray-200'>Zara</Link>
+              <Link to='/brands/versace' className='block px-4 py-2 hover:bg-gray-200'>Versace</Link>
+            </div>
+          </li>
+              
             </ul>
           </div>
           <div className='flex bg-[#f0f0f0]  w-[582px] rounded-[67px]'>

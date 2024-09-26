@@ -48,7 +48,7 @@ let all_product = [
         sub_category: "formal",
         image: p1,
         new_price: " 5000",
-        old_price: " 5800",
+        old_price: " 5500",
         brand:"Calvin Klein",
         on_sale: true,
         new_arrival: false
