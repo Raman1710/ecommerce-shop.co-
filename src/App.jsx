@@ -10,9 +10,6 @@ import LoginSignup from './Pages/LoginSignup'
 import Footer from './Components/Footer/Footer'
 
 function MainApp() {
-  // const location = useLocation();
-  
-  // const hideFooterPaths = ['/login', '/register'];
 
   return (
     <>
@@ -30,11 +27,11 @@ function MainApp() {
         <Route path='/on-sale' element={<Category on_sale= {true} />} />
         <Route path='/new-arrivals' element={<Category new_arrival={true}/>} />
         <Route   >
-           <Route path='/brands/calvin-klein' element={<Category brand="Calvin Klein"/>}/>
-           <Route path='/brands/gucci' element={<Category brand="Gucci"/>}/>
-           <Route path='/brands/prada' element={<Category brand="Prada"/>}/>
-           <Route path='/brands/zara' element={<Category brand="Zara"/>}/>
-           <Route path='/brands/versace' element={<Category brand="Versace"/>}/>
+           <Route path='/calvin-klein' element={<Category brand="Calvin Klein"/>}/>
+           <Route path='/gucci' element={<Category brand="Gucci"/>}/>
+           <Route path='/prada' element={<Category brand="Prada"/>}/>
+           <Route path='/zara' element={<Category brand="Zara"/>}/>
+           <Route path='/versace' element={<Category brand="Versace"/>}/>
         </Route>
         <Route path='/product/:productId' element={<Product />} />
         <Route path='/cart' element={<Cart />} />
@@ -42,7 +39,7 @@ function MainApp() {
         <Route path='/register' element={<LoginSignup />} />
       </Routes>
       <Footer/>
-      {/* {!hideFooterPaths.includes(location.pathname) && <Footer />} */}
+
     </>
   );
 }
