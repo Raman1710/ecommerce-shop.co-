@@ -1,6 +1,6 @@
 import p35 from './ProductImages/Product35.jpg'
 import p11 from './ProductImages/Product11.jpg'
-import p6 from './ProductImages/Product26.jpg'
+import p26 from './ProductImages/Product26.jpg'
 import p9 from './ProductImages/Product9.jpeg'
 
 
@@ -36,14 +36,14 @@ let data_product = [
         brand:"Zara"
     },
     {
-        id: 6,
-        name: "Loose Denim Button-Down Shirt",
+        id: 26,
+        name: "Tweed damier jacket",
         category: "women",
-        sub_category: "casual",
-        image: p6 ,
-        new_price: "5900",
-        old_price: "7500",
-        brand: "Calvin Klein"
+        sub_category: "formal",
+        image: p26,
+        new_price: " 23519",
+        old_price: " 25000",
+        brand:"Gucci",
     }
 ]
 
