@@ -48,11 +48,11 @@ function Nav () {
             {menu === 'brands' ? <hr className='border-0 bg-black w-11/12 h-1 absolute bottom-[-6px] left-0' /> : <></>}
 
             <div className='absolute hidden group-hover:block top-[30px] bg-white shadow-lg rounded-lg py-2 w-[150px]'>
-              <Link to='/brands/calvin-klein' className='block px-4 py-2 hover:bg-gray-200'>Calvin Klein</Link>
-              <Link to='/brands/gucci' className='block px-4 py-2 hover:bg-gray-200'>Gucci</Link>
-              <Link to='/brands/prada' className='block px-4 py-2 hover:bg-gray-200'>Prada</Link>
-              <Link to='/brands/zara' className='block px-4 py-2 hover:bg-gray-200'>Zara</Link>
-              <Link to='/brands/versace' className='block px-4 py-2 hover:bg-gray-200'>Versace</Link>
+              <Link to='/calvin-klein' className='block px-4 py-2 hover:bg-gray-200'>Calvin Klein</Link>
+              <Link to='/gucci' className='block px-4 py-2 hover:bg-gray-200'>Gucci</Link>
+              <Link to='/prada' className='block px-4 py-2 hover:bg-gray-200'>Prada</Link>
+              <Link to='/zara' className='block px-4 py-2 hover:bg-gray-200'>Zara</Link>
+              <Link to='/versace' className='block px-4 py-2 hover:bg-gray-200'>Versace</Link>
             </div>
           </li>
               
