@@ -25,14 +25,14 @@ const ShopContextProvider = (props) => {
             const updatedCart = { ...prev, [itemId]: prev[itemId] + 1 };
             toast.success('Product added to cart!', {
                 
-                    position: "top-right",
+                    position: "bottom-left",
                     autoClose: 3000,
                     hideProgressBar: false,
                     closeOnClick: true,
                     pauseOnHover: false,
                     draggable: false,
                     progress: undefined,
-                    theme: "light",
+                    theme: "dark",
             });
             return updatedCart;
         });
@@ -42,9 +42,20 @@ const ShopContextProvider = (props) => {
         setCartItems((prev) =>({...prev, [itemId]:prev[itemId]-1}))
     }
 
+    const getTotalCartItems = () => {
+        let totalItems = 0;
+
+        for(const items in cartItems){
+            if(cartItems[items] > 0){
+                totalItems += cartItems[items];
+            }
+        }
+        
+        return totalItems;
+    }
 
 
-    const contextValue = {all_product, cartItems, addToCart, removeFromCart};
+    const contextValue = {all_product, cartItems, addToCart, removeFromCart, getTotalCartItems};
 
     return (
         <ShopContext.Provider value={contextValue}>

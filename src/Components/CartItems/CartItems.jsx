@@ -9,28 +9,23 @@ import PromoCode from '../Assets/PromoCode.svg'
 const CartItems = () => {
     const { all_product, cartItems, removeFromCart } = useContext(ShopContext);
 
-    // Set delivery fee
     const deliveryFee = 199;
 
-    // Calculate subtotal and discount dynamically
     let subtotal = 0;
     let discount = 0;
     let totalItems = 0;
 
     all_product.forEach((e) => {
         if (cartItems[e.id] > 0) {
-            totalItems += cartItems[e.id]; // Count total items in the cart
-            // Add product's new price to subtotal
+            totalItems += cartItems[e.id]; 
             subtotal += e.new_price * cartItems[e.id];
 
-            // Calculate the discount (old price - new price) for each product
             discount += (e.old_price - e.new_price) * cartItems[e.id];
 
             
         }
     });
 
-    // Calculate total (Subtotal - Discount + Delivery Fee)
     const total = subtotal + deliveryFee - discount;
 
     return (
@@ -60,8 +55,9 @@ const CartItems = () => {
                                             <div className='flex flex-col justify-between w-full gap-1 items-start'>
                                                 <div className='w-full'>
                                                     <p className='font-satoshi-regular font-bold text-2xl'>{e.name.toUpperCase()}</p>
+                                                    <p className='font-satoshi font-medium text-sm'>Quantity:<span className='text-black/60'> {cartItems[e.id]}</span></p>
                                                     <p className='font-satoshi font-medium text-sm'>Size:<span className='text-black/60'> Large</span></p>
-                                                    <p className='font-satoshi text-xl font-bold'>₹{e.new_price}</p>
+                                                    <p className='font-satoshi text-2xl font-bold'>₹{e.new_price}</p>
                                                 </div>
                                                 <img
                                                     src={removeIcon}
@@ -102,7 +98,7 @@ const CartItems = () => {
                         <div className='mt-6 flex flex-row items-center gap-3 '>
                             <div className='flex flex-row justify-center items-center gap-3 w-1/2 bg-[#F0f0f0] py-4 rounded-3xl'>
                                 <img src={PromoCode} className='w-6 h-6'/>
-                                <input placeholder='Add promo code' className=' bg-[#F0f0f0] outline-none' />
+                                <input placeholder='Add promo code' type='text' className=' bg-[#F0f0f0] outline-none' />
                             </div>
                             <PrimaryButton className='text-white !mt-0  text-center'>Apply</PrimaryButton>
                         </div>
