@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import StarIcon from '../Assets/StarIcon.svg'
 import DullStarIcon from '../Assets/DullStarIcon.svg'
 import SecondaryButton from '../Buttons/SecondaryButton';
 import PrimaryButton from '../Buttons/PrimaryButton';
+import { ShopContext } from '../../Context/ShopContext';
+
 
 const ProductDisplay = (props) => {
     const {product} = props;
+    const {addToCart} = useContext(ShopContext)
 
     const newPrice = parseFloat(product.new_price);
     const oldPrice = parseFloat(product.old_price);
@@ -55,7 +58,7 @@ const ProductDisplay = (props) => {
                     <SecondaryButton>XX-Large</SecondaryButton>
                 </div>
             </div>
-            <PrimaryButton className='text-white w-full'>Add to Cart</PrimaryButton>
+            <PrimaryButton className='text-white w-full' onClick={() => {addToCart(product.id)}}>Add to Cart</PrimaryButton>
         </div>
     </div>
   )

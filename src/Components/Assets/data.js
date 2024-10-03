@@ -6,14 +6,14 @@ import p9 from './ProductImages/Product9.jpeg'
 
 let data_product = [
     {
-        id: 1,
-        name: "Stretch Cotton Slim Fit Short Sleeve Shirt",
+        id: 35,
+        name: "Moleskin pants",
         category: "mens",
-        sub_category: "formal",
-        image: p35,
-        new_price: "5000",
-        old_price: "5800",
-        brand:"Calvin Klein"
+        sub_category: "party",
+        image: p35 ,
+        new_price: " 5000",
+        old_price: " 6300",
+        brand: "Prada",
     },
     {
         id: 9,
