@@ -8,6 +8,18 @@ import Product from './Pages/Product'
 import Cart from './Pages/Cart'
 import LoginSignup from './Pages/LoginSignup'
 import Footer from './Components/Footer/Footer'
+import AboutUs from './Components/AboutUs/AboutUs'
+import PrimaryButton from './Components/Buttons/PrimaryButton'
+import PrivacyPolicy from './Components/PrivacyPolicy/PrivacyPolicy'
+import TermsConditions from './Components/TermsConditions/TermsConditions'
+import DeliveryDetails from './Components/DeliveryDetails/DeliveryDetails'
+import CustomerSupport from './Components/CustomerSupport/CustomerSupport'
+import Features from './Components/Features/Features'
+import Work from './Components/Work/Work'
+import Careers from './Components/Careers/Careers'
+import ManageDeliveriesFAQ from './Components/ManageDeliveriesFAQ/ManageDeliveriesFAQ'
+import OrdersFAQ from './Components/OrdersFAQ/OrdersFAQ'
+import PaymentsFAQ from './Components/PaymentsFAQ/PaymentsFAQ'
 
 function MainApp() {
 
@@ -37,6 +49,17 @@ function MainApp() {
         <Route path='/cart' element={<Cart />} />
         <Route path='/login' element={<LoginSignup />} />
         <Route path='/register' element={<LoginSignup />} />
+        <Route path='/about'element={<AboutUs/>}/>
+        <Route path ='/features' element={<Features/>}/>
+        <Route path ='/works' element={<Work/>} />
+        <Route path ='/career' element={<Careers/>} />
+        <Route path ='/customer-support' element= {<CustomerSupport/>} />
+        <Route path ='/delivery-details'element={<DeliveryDetails/>} />
+        <Route path ='/terms-&-conditions' element={<TermsConditions/>} />
+        <Route path ='/privacy-policy' element= {<PrivacyPolicy/>} />
+        <Route path ='/manage-delivery' element = {<ManageDeliveriesFAQ/>} />
+        <Route path ='/orders' element = {<OrdersFAQ/>} />
+        <Route path ='/payments' element = {<PaymentsFAQ/>} />
       </Routes>
       <Footer/>
 

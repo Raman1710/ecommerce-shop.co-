@@ -10,6 +10,7 @@ import googlepay from '../Assets/GooglePay.svg'
 import mastercard from '../Assets/mastercard.svg'
 import visa from '../Assets/visa.svg'
 import paypal from '../Assets/paypal.svg'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -41,40 +42,81 @@ function Footer() {
             <div className=' '>
                 <p className=' font-satoshi-regular font-medium leading-[18px] tracking-[3px]'>COMPANY</p>
                 <div className='mt-[26px]  flex flex-col gap-[25px]'>
-                    <p className=' font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>About</p>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Features</p>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Works</p>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Career</p>
+                <Link to = '/about'>
+                 <p className=' font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline' onClick={() => window.scrollTo(0, 0)}>About</p>
+                </Link>
+                <Link to = '/features'>
+                     <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline' onClick={() => window.scrollTo(0, 0)}>Features</p>
+                </Link>
+                <Link to = '/works'>
+                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline' onClick={() => window.scrollTo(0, 0)}>Works</p>
+                </Link>
+                <Link to = '/career'>
+                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline' onClick={() => window.scrollTo(0, 0)}>Career</p>
+                </Link>
                 </div>
 
             </div>
             <div>
                 <p className='font-satoshi-regular font-medium leading-[18px] tracking-[3px]'>HELP</p>
                 <div className='mt-[26px]  flex flex-col gap-[25px]'>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Customer Support</p>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Delivery Details</p>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Terms & Conditions</p>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Privacy Policy</p>
+                <Link to = '/customer-support' >
+                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline' onClick={() => window.scrollTo(0, 0)}>Customer Support</p>
+                </Link>
+                <Link to = '/delivery-details'>
+                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline' onClick={() => window.scrollTo(0, 0)}>Delivery Details</p>
+                </Link>
+                <Link to = '/terms-&-conditions' >
+                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline' onClick={() => window.scrollTo(0, 0)}>Terms & Conditions</p>
+                </Link>
+                <Link to = '/privacy-policy'>
+                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline' onClick={() => window.scrollTo(0, 0)}>Privacy Policy</p>
+                </Link>
+
+
+
+
                 </div>
 
             </div>
             <div>
                 <p className='font-satoshi-regular font-medium leading-[18px] tracking-[3px]'>FAQ</p>
                 <div className='mt-[26px]  flex flex-col gap-[25px]'>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Account</p>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Manage Deliveries</p>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Orders</p>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Payments</p>
+                <Link to = '/login'>
+                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline' onClick={() => window.scrollTo(0, 0)}>Account</p>
+                </Link>
+                <Link to = '/manage-delivery'>
+                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline' onClick={() => window.scrollTo(0, 0)}>Manage Deliveries</p>
+                </Link>
+                <Link to = '/orders'>
+                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline' onClick={() => window.scrollTo(0, 0)}>Orders</p>
+                </Link>
+                <Link to = '/payments'>
+                        <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline' onClick={() => window.scrollTo(0, 0)}>Payments</p>
+                </Link>
+                
+
+
+
+
                 </div>
 
             </div>
             <div>
                 <p className='font-satoshi-regular font-medium leading-[18px] tracking-[3px]'>SHOP</p>
                 <div className='mt-[26px]  flex flex-col gap-[25px]'>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>New Arrivals</p>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Top Selling </p>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Mens</p>
-                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left'>Women</p>
+                <Link to = '/new-arrivals'>
+                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline'>New Arrivals</p>
+                </Link>
+                <Link to='/on-sale'>
+                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline'>Top Selling </p>
+                </Link>
+                <Link to ='/mens'>
+                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline'>Men</p>
+                </Link>
+                <Link to = '/women'>
+                    <p className='font-satoshi-regular text-[16px] leading-5 text-black/60 text-left hover:underline'>Women</p>
+                </Link>
                 </div>
 
             </div>
