@@ -39,7 +39,18 @@ const ShopContextProvider = (props) => {
     }
     
     const removeFromCart = (itemId) => {
-        setCartItems((prev) =>({...prev, [itemId]:prev[itemId]-1}))
+        setCartItems((prev) =>({...prev, [itemId]:prev[itemId]-1}));
+        toast.info('Product removed from cart!', {
+                
+            position: "bottom-left",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: false,
+            draggable: false,
+            progress: undefined,
+            theme: "dark",
+    });
     }
 
     const getTotalCartItems = () => {
