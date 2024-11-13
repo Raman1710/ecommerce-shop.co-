@@ -80,8 +80,36 @@ function Nav() {
               </span>
           </div>
         </Link>
+{/* 
+        {localStorage.getItem('auth-token')?<button className='hover:underline text-xs ' onClick={() =>{localStorage.removeItem('auth-token'); window.location.replace('/')}}><img src={profile} className=' w-6 h-6' /></button> :         <Link to='/login'><img src={profile} className=' w-6 h-6' onClick={() => { setMenu("login") }} />{menu === 'login' ? <></> : <></>}</Link>} */}
 
-        <Link to='/login'><img src={profile} className=' w-6 h-6' onClick={() => { setMenu("login") }} />{menu === 'login' ? <></> : <></>}</Link>
+        {localStorage.getItem('auth-token') ? (
+  <div className="relative group">
+    <button
+      className="hover:underline text-xs"
+      onClick={() => {
+        localStorage.removeItem('auth-token');
+        window.location.replace('/');
+      }}
+    >
+      <img src={profile} className="w-6 h-6" alt="Profile" />
+    </button>
+    <span className="absolute -top-8 left-1/2 transform -translate-x-1/2 px-3 py-1 bg-black text-white text-xs rounded opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+      Log Out
+    </span>
+  </div>
+) : (
+  <Link to="/login">
+    <img
+      src={profile}
+      className="w-6 h-6"
+      alt="Profile"
+      onClick={() => setMenu("login")}
+    />
+  </Link>
+)}
+
+
       </div>
 
     </div>
